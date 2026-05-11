@@ -17,7 +17,7 @@ class RsaFileEncryptorApp extends StatelessWidget {
         useMaterial3: true,
         colorSchemeSeed: Colors.blue,
       ),
-      home: const FileCryptoPage(),
+      home: const UIapp(),
     );
   }
 }

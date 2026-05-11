@@ -6,7 +6,7 @@ import 'dart:typed_data';
 import 'package:basic_utils/basic_utils.dart';
 import 'package:pointycastle/export.dart';
 
-class CryptoService {
+class CryptoLogic {
   static const String magicHeader = 'RSAFILE1';
 
   Future<void> encryptFile({

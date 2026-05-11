@@ -6,15 +6,15 @@ import 'package:path/path.dart' as p;
 
 import 'crypto_logic.dart';
 
-class FileCryptoPage extends StatefulWidget {
-  const FileCryptoPage({super.key});
+class UIapp extends StatefulWidget {
+  const UIapp({super.key});
 
   @override
-  State<FileCryptoPage> createState() => _FileCryptoPageState();
+  State<UIapp> createState() => _FileCryptoPageState();
 }
 
-class _FileCryptoPageState extends State<FileCryptoPage> {
-  final CryptoService cryptoService = CryptoService();
+class _FileCryptoPageState extends State<UIapp> {
+  final CryptoLogic cryptoService = CryptoLogic();
 
   String publicKeyPath = '';
   String fileToEncryptPath = '';
